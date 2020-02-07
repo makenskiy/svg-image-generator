@@ -1,0 +1,34 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+  </head>
+  <body>
+    <h1>Svg image generator with JavaScript</h1>
+    <h2>Svg</h2>
+    <div id="js-img"></div>
+    <h2>Base64</h2>
+    <img id="js-base64" src="">
+    <div style="margin-top: 20px;">
+    <button id="js-btn">Update</button>
+    <div>
+    <script>
+    var el = document.getElementById('js-img');
+    var btn = document.getElementById('js-btn');
+    var base64 = document.getElementById('js-base64');
+    var img = new SvgImageGenerator();
+    var svg = '';
+
+    if (el && btn && img) {
+      svg = img.creatImage();
+      el.innerHTML = svg.svg;
+      base64.src = svg.base64;
+      btn.addEventListener('click', event => {
+        svg = img.creatImage();
+        el.innerHTML = svg.svg;
+        base64.src = svg.base64;
+      });
+    }
+    </script>
+  </body>
+<html>
