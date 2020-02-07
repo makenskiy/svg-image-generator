@@ -7,8 +7,8 @@ This libs generator random svg and base64 code
 | Name  | Type | Required | Default |
 | ------------- | ------------- | ------------- | ------------- |
 | width  | number  | No | 500 |
-| height  | number  | No | 2 |
-| stroke  | number  | No | No |
+| height  | number  | No | 300 |
+| stroke  | number  | No | 2 |
 | maxShapes  | number  | No | 16 |
 | opacity  | number  | No  | 1.0 |
 
