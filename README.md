@@ -22,7 +22,7 @@ Use development tools
 ## Install
 
 ```bash
-git clone https://github.com/makenskiy/SvgImageGenerator.git && cd SvgImageGenerator && npm i
+git clone https://github.com/makenskiy/svg-image-generator.git && cd svg-image-generator && npm i
 ```
 
 ## Run dev
