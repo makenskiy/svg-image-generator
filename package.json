@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/makenskiy/webpack-typescript-library-starter.git"
+    "url": "git+https://github.com/makenskiy/svg-image-generator.git"
   },
   "keywords": [
     "Svg",
@@ -25,9 +25,9 @@
   "author": "Makenskiy Viktor",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/makenskiy/webpack-typescript-library-starter/issues"
+    "url": "https://github.com/makenskiy/svg-image-generator/issues"
   },
-  "homepage": "https://github.com/makenskiy/webpack-typescript-library-starter#readme",
+  "homepage": "https://github.com/makenskiy/svg-image-generator#readme",
   "devDependencies": {
     "@types/expect.js": "^0.3.29",
     "@types/mocha": "^5.2.5",
